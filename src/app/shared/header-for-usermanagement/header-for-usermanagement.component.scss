@@ -1,21 +1,28 @@
-@use './../../../mixins.scss' as *;
+@use "./../../../mixins.scss" as *;
 
 @include linkUserM;
+
+.logo {
+  cursor: default;
+  pointer-events: none;
+}
 
 div {
   @include flexColumn;
   align-items: end;
-  gap: 1rem;
+  gap: 0.5rem;
 
   @media (max-width: 500px) {
     display: none;
   }
 }
 
-@media(max-width: 1000px) {
-  a {
-    padding: 2rem;
-  }
-
+span {
+  font-size: 1.125rem;
 }
 
+// @media (max-width: 1000px) {
+//   a {
+//     padding: 2rem;
+//   }
+// }

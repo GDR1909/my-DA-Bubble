@@ -33,9 +33,13 @@ form {
 
     >img {
       height: 10.5rem;
+      width: 10.5rem;
+      object-fit: cover;
       padding: .3rem;
       border-radius: 50%;
+      
       &:hover {
+        cursor: default;
         background-color: #ECEEFE;
       }
     }

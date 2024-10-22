@@ -2,6 +2,8 @@ a {
   padding: 0;
   height: 4.375rem;
   width: 15.132rem;
+  cursor: default;
+  pointer-events: none;
   @media(max-width: 999px) {
     width: 10.094rem;
     height: 2.813rem;

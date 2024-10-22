@@ -54,12 +54,14 @@ app-root {
 app-header-for-usermanagement {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 2rem;
   width: 100%;
-}
 
-app-header-for-usermanagement {
-  align-items: center;
+  @media (max-width: 999px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 app-main-content {
